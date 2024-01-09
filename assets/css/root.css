@@ -55,3 +55,9 @@
 .clr_lightgrey {
   color: var(--clr-lightgrey);
 }
+.ff_opensans {
+  font-family: " Open Sans";
+}
+.ff_manrope {
+  font-family: "Manrope";
+}
