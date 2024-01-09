@@ -1,0 +1,44 @@
+.bg_darkblue {
+  background-color: var(--clr-darkblue);
+}
+.menu {
+  font-size: 38px;
+  font-family: sans-serif;
+  width: 36px;
+  height: 39px !important;
+  gap: 10px !important;
+  padding-top: -30px;
+  overflow: hidden;
+  color: var(--clr-lightgreen);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: var(--clr-darkblue);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: -100%;
+  transition: all linear 300ms;
+  z-index: 1 !important;
+}
+.closbtn {
+  top: 20px;
+  right: 20px;
+}
+
+
+
+/* nav */
+@media (min-width: 1400px) {
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+}
