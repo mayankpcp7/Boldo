@@ -16,8 +16,8 @@
   </head>
   <body>
     <header class="min_vh_100 bg_darkblue d-flex flex-column">
-        <nav> <div class="py-4 d-flex justify-content-between align-items-center">
-                <img class="max_w_120px" src="./assets/Images/webp/header_logo.webp" alt="header_logo">
+        <nav class="py-4 d-flex justify-content-between align-items-center  mx-auto px-3">
+                <img class="max_w_120px" width="25"height="33" src="./assets/Images/webp/navlogo.webp" alt="navlogo">
                 <ul class="mb-0 ps-0 d-lg-flex gap-4 text-white d-none d-lg-block d-none">
                     <li><a href="#services" class="text_white ff-Poppins fw-normal opacity fs-18px">Services Us</a></li>
                     <li><a href="#Benefits" class="text_white ff-Poppins fw-normal opacity fs-18px">Benefits</a></li>
@@ -29,7 +29,7 @@
                 <button class="submit_btn d-lg-block d-none ff-Poppins fw-medium fs-18px">Contact us</button>
 
                 <button id="openNav" onclick="openNav()" class="menu d-lg-none" type="button">&#9776</button>
-                <div id="Menu" class="d-lg-none navbar1 d-flex justify-content-center align-items-center text-center">
+                <div id="Menu" class="d-lg-none navbar d-flex justify-content-center align-items-center text-center">
                     <button class="menu position-absolute closbtn" onclick="closeNav()" type="button">&times;</button>
                     <ul class="mb-0 ps-0 d-flex flex-column gap-4 text-white">
                         <li onclick="closeNav()"><a href="#services"
@@ -49,8 +49,8 @@
                             us</button>
                     </ul>
                 </div>
-            </div></nav>
-      <main class="d-flex flex-column align-items-center justify-content-center h-100">
+            </nav>
+      <main class="d-flex flex-column flex-grow-1 align-items-center justify-content-center h-100">
         <p class="ff_opensans">About</p>
       </main>
     </header>
@@ -59,5 +59,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/style.js"></script>
   </body>
 </html>
