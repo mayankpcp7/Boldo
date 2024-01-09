@@ -17,3 +17,23 @@
 .w_25px {
     width: 25px;
 }
+
+.gap_11px {
+    gap: 11px;
+}
+
+.leading_77 {
+    line-height: 77.77%;
+}
+
+.leading_175 {
+    line-height: 175% !important;
+}
+
+.mt_40px {
+    margin-top: 40px;
+}
+
+.max_w_300px {
+    max-width: 300px !important;
+}
