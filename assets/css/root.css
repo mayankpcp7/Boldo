@@ -56,11 +56,11 @@
   color: var(--clr-lightgrey);
 }
 .ff_opensans {
-  font-family: " Open Sans";
+  font-family:"Open Sans";
 }
 .ff_manrope {
-  font-family: "Manrope";
+  font-family:"Manrope";
 }
 .leading_77{
-  line-height: 77;
+  line-height: 77%;
 }
