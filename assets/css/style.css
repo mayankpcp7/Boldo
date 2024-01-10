@@ -17,7 +17,7 @@
   font-family: sans-serif;
   width: 36px;
   height: 39px !important;
-  gap: 10px !important;
+  gap: 2px !important;
   padding-top: -30px;
   overflow: hidden;
   color: var(--clr-lightgreen);
@@ -309,8 +309,29 @@ div ul li a:hover {
   gap: 96px;
 }
 
-
 /* --------------------------------Blog page--------------------- */
+.blogmenu {
+  font-size: 38px;
+  width: 36px;
+  height: 39px !important;
+  gap: 10px !important;
+  padding-top: -30px;
+  overflow: hidden;
+  color: var(--clr-darkblue);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerline {
+  display: flex;
+  height: 1px;
+  background: var(--Dark-Blue, #0a2640);
+  width: 100%;
+}
 .blog_nav_hover::before {
   background-color: #0a2640;
 }
@@ -336,9 +357,10 @@ div ul li a:hover {
   }
 }
 @media (max-width: 1200px) {
-  .mw_543 {
-    max-width: 443px;
+  .mw_550 {
+    max-width: 400px;
   }
+
   .max_w_400 {
     width: 100% !important;
   }
@@ -411,6 +433,10 @@ div ul li a:hover {
   }
 }
 @media (max-width: 576px) {
+  .mw_550 {
+    max-width: 300px;
+  }
+
   .griditem4 {
     grid-row: 3/4;
     grid-column: 1/2;
