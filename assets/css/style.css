@@ -183,7 +183,6 @@
   max-width: 800px;
 }
 
-
 @media (min-width: 1400px) {
   .min_vh_100 {
     min-height: 100vh;
@@ -268,6 +267,10 @@
   .py_100px {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .py_120 {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
   }
 }
 
@@ -496,7 +499,7 @@ div ul li a:hover {
   justify-content: center;
   align-items: center;
 }
-.headerline {
+.header_line {
   display: flex;
   height: 1px;
   background: var(--Dark-Blue, #0a2640);
@@ -526,7 +529,60 @@ div ul li a:hover {
 .mw_543 {
   max-width: 543px;
 }
+/* ----------------------blog cards------------------ */
+.max_w_1000px {
+  max-width: 1000px !important;
+}
 
+.w_32px {
+  width: 32px;
+}
+
+.card_1 {
+  max-width: 324px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  min-height: 424px;
+  transition: all linear 300ms;
+  cursor: pointer;
+}
+
+.card_1:hover {
+  box-shadow: 0px 10px 10px 0px rgb(221, 221, 221);
+}
+
+.btn_2 {
+  background: transparent;
+  padding: 16px 56px;
+  border: none;
+  border-radius: 56px;
+  border: 2px solid #0a2640;
+  height: 60px;
+  transition: all linear 250ms;
+}
+
+.btn_2:hover {
+  background-color: #0a2640;
+  color: white;
+}
+.back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3;
+  background-color:var(--clr-darkblue);
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  transition: all linear 250ms;
+  border: 2px solid var(--clr-lightgreen)
+}
+
+.back-to-top:hover {
+  background-color: var(--clr-lightgreen);
+}
 @media (min-width: 1400px) {
   .min_vh_100 {
     min-height: 100vh;
@@ -559,6 +615,15 @@ div ul li a:hover {
 }
 
 @media (max-width: 992px) {
+  .card_1 {
+    min-height: 375px;
+  }
+
+  .my_96px {
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+  }
+
   .Ellipse_9_absolute {
     max-width: 500px;
   }
@@ -594,6 +659,10 @@ div ul li a:hover {
 }
 
 @media (max-width: 768px) {
+  .my_96px {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+  }
   .mt_n30 {
     margin-top: -70px !important;
   }
@@ -619,6 +688,10 @@ div ul li a:hover {
 }
 
 @media (max-width: 576px) {
+  .my_96px {
+    margin-top: 48px !important;
+    margin-bottom: 48px !important;
+  }
   .mw_550 {
     max-width: 300px;
   }
@@ -685,6 +758,14 @@ div ul li a:hover {
     padding-top: 120px !important;
     padding-bottom: 120px !important;
   }
+  .mt_80px {
+    margin-top: 80px !important;
+  }
+
+  .my_96px {
+    margin-top: 96px !important;
+    margin-bottom: 96px !important;
+  }
 }
 
 @media (min-width: 576px) {
@@ -696,4 +777,16 @@ div ul li a:hover {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+}
+/* ---------------------Animations----------------- */
+
+.animate__backInDown,
+.animate__backInLeft,
+.animate__backInRight,
+.animate__bounceInUp,
+.animate__bounceInLeft,
+.animate__bounceInRight {
+  margin: 0 0.5rem;
+  animation-duration: 1s;
+  animation-delay: 3s;
 }

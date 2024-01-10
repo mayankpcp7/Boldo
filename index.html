@@ -9,19 +9,23 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="./assets/images/png/navlogo.png" />
     <link rel="stylesheet" href="./assets/css/root.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Boldo</title>
   </head>
-  <body>
-    <header class="min_vh_100 bg_darkblue d-flex flex-column">
+  <body class="overflow-hidden">
+    <div id="preloader" >
+  <div class="d-flex vh-100 w-100 align-items-center justify-content-center bg_darkblue"><img class="scale_animation" src="./assets/images/svg/preloader img.svg" alt="preloader"> </div></div>
+    <div class="overflow-hidden"> 
+    <header id="About" class="min_vh_100 bg_darkblue d-flex flex-column">
         <nav class="pt-2 mt-lg-5 mt-3 d-flex justify-content-between align-items-center my_container w-100 mx-auto ">
               <div class="d-flex align-items-center cursor_pointer"> <img class="me-2" width="25"height="33" src="./assets/images/webp/navlogo.webp" alt="navlogo">
               <p class="fw-bold mb-0 clr_white ff_opensans leading_77 ps-1 fs_xl">Boldo</p> </div> 
                 <ul class="mb-0 ps-0 d-lg-flex align-items-center d-none d-none">
-                    <li class="pe-4"><a href="#Product" class="clr_white ff_opensans fw-semibold fs_xs  me-3 hover_line transition_200">Product</a></li>
+                    <li class="pe-4"><a href="Blogs.html" class="clr_white ff_opensans fw-semibold fs_xs  me-3 hover_line transition_200">Product</a></li>
                     <li class="pe-4"><a href="#Services" class="clr_white ff_opensans fw-semibold fs_xs  me-3 hover_line transition_200">Services</a></li>
                     <li class="pe-4"><a href="#About" class="clr_white ff_opensans fw-semibold fs_xs  me-3 hover_line transition_200">About</a>
                     </li>
@@ -34,61 +38,61 @@
                 <div id="Menu" class="d-lg-none navbar d-flex justify-content-center align-items-center text-center">
                     <button class="menu position-absolute closbtn" onclick="closeNav()" type="button">&times;</button>
                     <ul class="mb-0 ps-0 d-flex flex-column gap-4 text-white">
-                   <li><a href="#Product" class="clr_white ff_opensans fw-semibold fs_xs hover_line transition_200">Product</a></li>
-                    <li><a href="#Services" class="clr_white ff_opensans fw-semibold fs_xs hover_line transition_200">Services</a></li>
-                    <li><a href="#About" class="clr_white ff_opensans fw-semibold fs_xs hover_line transition_200">About</a>
+                   <li><a href="Blogs.html"  onclick="closeNav()" class="clr_white ff_opensans fw-semibold fs_xs hover_line transition_200">Product</a></li>
+                    <li><a href="#Services"  onclick="closeNav()" class="clr_white ff_opensans fw-semibold fs_xs hover_line transition_200">Services</a></li>
+                    <li><a href="#About"  onclick="closeNav()" class="clr_white ff_opensans fw-semibold fs_xs hover_line transition_200">About</a>
                     </li>
                       <button class="ff_opensans fw-bold fs_xs leading_150 py-2 px_40 bg-white rounded_24 border_white transition_200 hover_bg_green">Log In</button>
                     </ul>
                 </div>
             </nav>
       <main class="d-flex flex-column flex-grow-1 align-items-center justify-content-center pb_166 position-relative">
-      
-        <p class="ff_opensans fs_sm clr_white mt-5 mt-xxl-0 pt-xxl-0 pt-2 fw-normal">About</p>
-        <h1 class="clr_white fs_3xl ff_manrope mw_842 text-center leading_131 pt-2 mt-1 ">We love to make great things, things that matter.</h1>
-        <p class="text-center ff_manrope clr_white leading_175 pt-3 mw_745 fw-normal">Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.</p>
-
+      <div class="d-flex flex-column align-items-center justify-content-center my_container"> 
+        <p class="ff_opensans fs_sm clr_white mt-5 mt-xxl-0 pt-xxl-0 pt-2 fw-normal animate__backInDown">About</p>
+        <h1 class="clr_white fs_3xl ff_manrope mw_842 text-center leading_131 pt-2 mt-1 animate__backInLeft">We love to make great things, things that matter.</h1>
+        <p class="text-center ff_manrope clr_white leading_175 pt-3 mw_745 fw-normal animate__backInRight">Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.</p>
+</div>
       </main>
     </header>
     <div class="my_container"> 
             <div class="mw_1100 mx-auto">
     <div class="grid_container">
-<div class="griditem1 overflow-hidden rounded_24 "><img class="hover_scale transition_200 h-100 rounded_24 max_w_300" src="./assets/images/webp/grid1.webp" alt="grid pic 1"></div>
-<div class="griditem2 overflow-hidden rounded_24 "><img class="hover_scale transition_200 h-100 rounded_24 max_w_300" src="./assets/images/webp/grid2.webp" alt="grid pic 2"></div>
-<div class="griditem3 overflow-hidden rounded_24 "><img class="hover_scale transition_200 h-100 rounded_24 max_w_400" src="./assets/images/webp/grid3.webp" alt="grid pic 3"></div>
-<div class="griditem4 overflow-hidden rounded_24 "><img class="hover_scale transition_200 h-100 rounded_24 max_w_302" src="./assets/images/webp/grid4.webp" alt="grid pic 4"></div>
-<div class="griditem5 overflow-hidden rounded_24 "><img class="hover_scale transition_200 h-100 rounded_24 max_w_302" src="./assets/images/webp/grid5.webp" alt="grid pic 5"></div>
+<div class="griditem1 overflow-hidden rounded_24 "data-aos="fade-down-right"data-aos-duration="1000"><img class="hover_scale transition_200 h-100 rounded_24 max_w_300" src="./assets/images/webp/grid1.webp" alt="grid pic 1"></div>
+<div class="griditem2 overflow-hidden rounded_24 "data-aos="fade-up-right"data-aos-duration="1000"><img class="hover_scale transition_200 h-100 rounded_24 max_w_300" src="./assets/images/webp/grid2.webp" alt="grid pic 2"></div>
+<div class="griditem3 overflow-hidden rounded_24 " data-aos="zoom-out"data-aos-duration="1000"><img class="hover_scale transition_200 h-100 rounded_24 max_w_400" src="./assets/images/webp/grid3.webp" alt="grid pic 3"></div>
+<div class="griditem4 overflow-hidden rounded_24 "data-aos="fade-down-left"data-aos-duration="1000"><img class="hover_scale transition_200 h-100 rounded_24 max_w_302" src="./assets/images/webp/grid4.webp" alt="grid pic 4"></div>
+<div class="griditem5 overflow-hidden rounded_24 "data-aos="fade-down-left"data-aos-duration="1000"><img class="hover_scale transition_200 h-100 rounded_24 max_w_302" src="./assets/images/webp/grid5.webp" alt="grid pic 5"></div>
 
     </div>
  </div>
  </div>
  <!-- --------Our story---------- -->
- <section class=" mw_842  mx-auto mt_n30">
-<p class="text-sm-start text-center ff_opensans fw-normal fs_sm clr_lightgrey leading_160 mb-0 mb-2 pb-1">Our story</p>
-<h2 class="text-sm-start text-center ff_manrope fs_2xl leading_150 fw-normal">Handshake infographic mass market crowdfunding iteration.</h2>
-<p class="text-sm-start text-center ff_opensans fw-normal fs_sm mw_800 clr_lightgrey  mt-3 pt-3 mb-5 pb-lg-5">Conversion angel investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration. Traction stock user experience deployment beta innovator incubator focus. Sales user experience branding growth hacking holy grail monetization conversion prototype stock network effects. Learning curve network effects return on investment bootstrapping business-to-consumer. </p>
+ <section class=" mw_842  mx-auto mt_n30"id="Services">
+<p class="text-sm-start text-center ff_opensans fw-normal fs_sm clr_lightgrey leading_160 mb-0 mb-2 pb-1"data-aos="fade-right"data-aos-duration="1000">Our story</p>
+<h2 class="text-sm-start text-center ff_manrope fs_2xl leading_150 fw-normal"data-aos="fade-right"data-aos-duration="1200">Handshake infographic mass market crowdfunding iteration.</h2>
+<p class="text-sm-start text-center ff_opensans fw-normal fs_sm mw_800 clr_lightgrey  mt-lg-3 pt-lg-3 mb-5 pb-lg-5 pb-sm-2 pb-md-0"data-aos="fade-right"data-aos-duration="1400">Conversion angel investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration. Traction stock user experience deployment beta innovator incubator focus. Sales user experience branding growth hacking holy grail monetization conversion prototype stock network effects. Learning curve network effects return on investment bootstrapping business-to-consumer. </p>
  </section>
 <!-- -------------Our numbers---->
 <section class="bg_darkblue py-md-5">
-  <div class="my_container"> 
+  <div class="my_container py-sm-2 py-lg-0"> 
 <div class="mw_1000 py-5 d-flex flex-column align-items-center justify-content-center">
-  <p class="text-center clr_white leading_160 ff_opensans fw-normal">Our numbers</p>
-  <h2 class="text-center ff_manrope fw-normal leading_150 clr_white mw_842 fs_2xl mb-2 pb-1">Handshake infographic mass market crowdfunding iteration.</h2>
+  <p class="text-center clr_white leading_160 ff_opensans fw-normal"data-aos="zoom-in"data-aos-duration="1000">Our numbers</p>
+  <h2 class="text-center ff_manrope fw-normal leading_150 clr_white mw_842 fs_2xl mb-2 pb-1"data-aos="zoom-in"data-aos-duration="1200">Handshake infographic mass market crowdfunding iteration.</h2>
   <div class="row align-items-md-center align-items-start gap-md-0 mt-5 pt-lg-4  gap-5 justify-content-md-between justify-content-center w-100">
     <div class="col-md-4 col-sm-5 col-10"> 
-<div class="d-flex flex-column align-items-md-start align-items-center">
+<div class="d-flex flex-column align-items-md-start align-items-center"data-aos="zoom-in-right"data-aos-duration="1000">
   <div class="d-flex align-items-center"> <p class="clr_lightgreen fs_4xl ff_manrope leading_58 value" akhi="120">0</p><p class="clr_lightgreen fs_4xl ff_manrope leading_58">m</p></div>
   <p class="clr_white ff_opensans fs_md leading_150 fw-normal pt-lg-4 pt-2 mb-0">Cool feature title</p>
 </div>
 </div>
 <div class="col-md-4 col-sm-5 col-10"> 
-<div class="d-flex flex-column align-items-md-start align-items-center">
+<div class="d-flex flex-column align-items-md-start align-items-center"data-aos="zoom-in">
   <div class="d-flex align-items-center"><p class="clr_lightgreen fs_4xl ff_manrope leading_58 value" akhi="10"></p><p class="clr_lightgreen fs_4xl ff_manrope leading_58">.000</p></div>
   <p class="clr_white ff_opensans fs_md leading_150 fw-normal pt-lg-4 pt-2 mb-0">Cool feature title</p>
 </div>
 </div>
 <div class="col-md-3 col-sm-5 col-10"> 
-<div class="d-flex flex-column align-items-start align-items-center">
+<div class="d-flex flex-column align-items-start align-items-center"data-aos="zoom-in-left"data-aos-duration="1000">
   <h4 class="clr_lightgreen fs_4xl ff_manrope leading_58 value" akhi="240">0</h4>
   <p class="clr_white ff_opensans fs_md leading_150 fw-normal pt-lg-4 pt-2 mb-0">Cool feature title</p>
 </div>
@@ -103,9 +107,9 @@
 
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <p class="ff_opensans fs_sm clr_lightgrey fw-normal leading_160 mb-1">Our team</p>
-          <h2 class="ff_opensans fs_2xl fw-normal leading_150 mb-0 mt-2 mb-1">The leadership team</h2>
-          <p class="mb-0 ff_opensans fw-normal leading_160 fs_sm clr_lightgrey mt-3 max_w_800px">Conversion angel
+          <p class="ff_opensans fs_sm clr_lightgrey fw-normal leading_160 mb-1"data-aos="fade-down">Our team</p>
+          <h2 class="ff_opensans fs_2xl fw-normal leading_150 mb-0 mt-2 mb-1"data-aos="fade-down-right">The leadership team</h2>
+          <p class="mb-0 ff_opensans fw-normal leading_160 fs_sm clr_lightgrey mt-3 max_w_800px"data-aos="fade-right">Conversion angel
             investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration.
             Traction stock user experience deployment beta innovator incubator focus.</p>
         </div>
@@ -114,7 +118,7 @@
       <div class="row justify-content-center mt-5">
         <div class="col-lg-10 d-md-flex gap-5">
 
-          <div class="d-sm-flex align-items-center justify-content-center gap-5">
+          <div class="d-sm-flex align-items-center justify-content-center gap-5"data-aos="fade-up" data-aos-duration="1500">
             <div class="w_300px mx-auto">
               <img class="w-100 w_300px" src="./assets/images/webp/Michael_scott.webp" alt="Michael_scott">
               <div class="d-flex flex-column gap_12px mt-4">
@@ -123,8 +127,8 @@
               </div>
             </div>
 
-            <div class="w_300px mx-auto mt-5 mt-sm-0">
-              <img class="w-100 w_300px" src="./assets/images/webp/Dwight_Schrute.webp" alt="Dwight Schrute">
+            <div class="w_300px mx-auto mt-5 mt-sm-0"data-aos="fade-up" data-aos-duration="1500">
+              <img class="w-100 w_300px" src="./assets/images/webp/Dwight_schrute.webp" alt="Dwight Schrute">
               <div class="d-flex flex-column gap_12px mt-4">
                 <h3 class="ff_manrope font-normal leading_171 mb-0">Dwight Schrute</h3>
                 <h3 class="ff_opensans fs_sm leading_160 clr_lightgrey mb-0">General Manager</h3>
@@ -132,7 +136,7 @@
             </div>
           </div>
 
-          <div class="d-flex align-items-center justify-content-center mt-5 mt-md-0">
+          <div class="d-flex align-items-center justify-content-center mt-5 mt-md-0"data-aos="fade-up" data-aos-duration="1500">
             <div class="w_300px">
               <img class="w-100 w_300px" src="./assets/images/webp/Pam_Beetsley.webp" alt="Pam_Beetsley">
               <div class="d-flex flex-column gap_12px mt-4">
@@ -153,18 +157,18 @@
       <div class="my_container">
         <div class="row justify-content-center">
           <div class="col-lg-9">
-            <p class="mb-0 ff_opensans fs_sm font-normal leading_160 text-white">Our values
+            <p class="mb-0 ff_opensans fs_sm font-normal leading_160 text-white"data-aos="fade-right"data-aos-duration="1000">Our values
             </p>
-            <h2 class="text-white ff_manrope fs_2xl fw-normal leading_160 mb-0 mt-2 mb-1">Things in we
+            <h2 class="text-white ff_manrope fs_2xl fw-normal leading_160 mb-0 mt-2 mb-1"data-aos="fade-right"data-aos-duration="1000">Things in we
               believe</h2>
-            <p class="mb-0 ff_opensans fw-normal leading_160 fs_sm clr_white mt-3 max_w_800px">Conversion angel
+            <p class="mb-0 ff_opensans fw-normal leading_160 fs_sm clr_white mt-3 max_w_800px"data-aos="fade-right"data-aos-duration="1000">Conversion angel
               investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration.
               Traction stock user experience deployment beta innovator incubator focus.</p>
 
             <div class="mt_72px">
               <div class="d-sm-flex align-items-start gap-5">
-                <img class="max_w_150px" src="./assets/images/webp/commited_img.webp" alt="commited_img">
-                <div class="d-flex flex-column gap-3 mt-3 mt-sm-0">
+                <img class="max_w_150px"data-aos-duration="1000"data-aos="fade-up" src="./assets/images/webp/commited_img.webp" alt="commited_img">
+                <div class="d-flex flex-column gap-3 mt-3 mt-sm-0"data-aos-duration="1000"data-aos="fade-left">
                   <h3 class="ff_manrope fs_lg leading_171 text-white mb-0">We are commited.</h3>
                   <p class="ff_opensans fs_sm fw-normal clr_white mb-0 leading_160">Conversion angel investor
                     entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration.</p>
@@ -174,8 +178,8 @@
 
             <div class="mt_72px">
               <div class="d-sm-flex align-items-start gap-5">
-                <img class="max_w_150px" src="./assets/images/webp/responseble_img.webp" alt="responseble_img">
-                <div class="d-flex flex-column gap-3 mt-3 mt-sm-0">
+                <img data-aos-duration="1000"data-aos="fade-up" class="max_w_150px" src="./assets/images/webp/responseble_img.webp" alt="responseble_img">
+                <div class="d-flex flex-column gap-3 mt-3 mt-sm-0"data-aos-duration="1000"data-aos="fade-left">
                   <h3 class="ff_manrope fs_lg leading_171 text-white mb-0">We are responsible.</h3>
                   <p class="ff_opensans fs_sm fw-normal clr_white mb-0 leading_160">Conversion angel investor
                     entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration.</p>
@@ -185,8 +189,8 @@
 
             <div class="mt_72px">
               <div class="d-sm-flex align-items-start gap-5">
-                <img class="max_w_150px" src="./assets/images/webp/progress_img.webp" alt="progress_img">
-                <div class="d-flex flex-column gap-3 mt-3 mt-sm-0">
+                <img data-aos-duration="1000"data-aos="fade-up" class="max_w_150px" src="./assets/images/webp/progress_img.webp" alt="progress_img">
+                <div class="d-flex flex-column gap-3 mt-3 mt-sm-0"data-aos-duration="1000"data-aos="fade-left">
                   <h3 class="ff_manrope fs_lg leading_171 text-white mb-0">We aim for progress.</h3>
                   <p class="ff_opensans fs_sm fw-normal clr_white mb-0 leading_160">Conversion angel investor
                     entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration.</p>
@@ -202,7 +206,8 @@
 
   <!-- card -->
   <section>
-    <div class="my_container px- mt_124px mb_84px px-xl-0">
+    <div class="my_container px- mt_124px mb_84px px-xl-0" data-aos="zoom-in"
+    data-aos-duration="1500">
       <div class="template_box px-4 py-5 position-relative overflow-hidden">
         <img class="Ellipse_9_absolute" src="./assets/images/webp/Ellipse 9.webp" alt="Ellipse 9">
         <div class="d-flex flex-column gap-4 gap-sm-5 py-sm-4 position-relative z-1">
@@ -284,11 +289,17 @@
     </div>
 
   </footer>
+  </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
     <script src="./assets/js/style.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!------------------------------------aos---------------------------- -->
+    <script>
+      AOS.init({ once: true });
+    </script>
   </body>
 </html>
