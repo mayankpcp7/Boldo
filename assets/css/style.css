@@ -99,6 +99,10 @@
   border: 2px solid white;
 }
 
+.border_blue {
+  border: 2px solid #0a2640;
+}
+
 /* nav */
 .mw_842 {
   max-width: 842px;
@@ -473,6 +477,182 @@ div ul li a:hover {
 
 .gap_96px {
   gap: 96px;
+}
+
+
+/* --------------------------------Blog page--------------------- */
+.blog_nav_hover::before {
+  background-color: #0a2640;
+}
+
+.blog_nav_hover:hover {
+  color: #0a2640;
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+.hover_bg_blue:hover {
+  background-color: #0a2640 !important;
+  color: white;
+}
+
+.mw_550 {
+  max-width: 550px;
+}
+
+.mw_543 {
+  max-width: 543px;
+}
+
+@media (min-width: 1400px) {
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mw_543 {
+    max-width: 443px;
+  }
+
+  .max_w_400 {
+    width: 100% !important;
+  }
+
+  .max_w_302 {
+    max-width: 100% !important;
+  }
+
+  .max_w_300 {
+    max-width: 100% !important;
+  }
+
+  .grid_container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Ellipse_9_absolute {
+    max-width: 500px;
+  }
+
+  .mb_84px {
+    margin-bottom: 70px;
+  }
+
+  .mt_124px {
+    margin-top: 100px;
+  }
+
+  .max_w_300px {
+    max-width: 600px;
+  }
+
+  .mt_40px {
+    margin-top: 24px;
+  }
+
+  .mt_32px {
+    margin-top: 24px !important;
+  }
+
+  .py_100px {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .mt_n30 {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mt_n30 {
+    margin-top: -70px !important;
+  }
+
+  .griditem4 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .griditem5 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+
+  .mt_124px {
+    margin-top: 80px;
+  }
+
+  .py_100px {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .griditem4 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .griditem5 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+
+  .mt_72px {
+    margin-top: 48px;
+  }
+
+  .py_120 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .Ellipse_9_absolute {
+    max-width: 350px;
+  }
+
+  .mt_124px {
+    margin-top: 48px;
+  }
+
+  .input_box {
+    padding: 12px 20px !important;
+  }
+
+  .mb_84px {
+    margin-bottom: 48px;
+  }
+
+  .py_100px {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid_container {
+    transform: translateY(-5%);
+  }
+
+  .griditem3 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+  }
+
+  .griditem5 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+  }
 }
 
 @media (min-width: 992px) {
