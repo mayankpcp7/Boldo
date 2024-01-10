@@ -1,3 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
 .my_container {
     max-width: 1200px;
     margin-left: auto;
@@ -14,8 +22,16 @@
     width: 25px;
 }
 
-.gap_11px {
-    gap: 11px;
+.gap_12px {
+    gap: 12px;
+}
+
+.max_w_800px {
+    max-width: 800px !important;
+}
+
+.max_w_150px {
+    max-width: 150px !important;
 }
 
 .mt_32px {
@@ -24,14 +40,6 @@
 
 .leading_77 {
     line-height: 77.77%;
-}
-
-.leading_160 {
-    line-height: 160%;
-}
-
-.leading_175 {
-    line-height: 175% !important;
 }
 
 .leading_140 {
@@ -56,10 +64,6 @@
 
 .mt_40px {
     margin-top: 40px;
-}
-
-.max_w_300px {
-    max-width: 300px !important;
 }
 
 .leading_160 {
@@ -161,5 +165,57 @@ div ul li a:hover {
 
     .mt_32px {
         margin-top: 24px !important;
+    }
+}
+
+@media (min-width:992px) {
+    .py_120 {
+        padding-top: 120px !important;
+        padding-bottom: 120px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .mt_124px {
+        margin-top: 80px;
+    }
+}
+
+
+@media (min-width:576px) {
+    .mt_72px {
+        margin-top: 72px;
+    }
+
+    .py_120 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width:576px) {
+    .mt_72px {
+        margin-top: 60px;
+    }
+
+    .py_120 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .Ellipse_9_absolute {
+        max-width: 350px;
+    }
+
+    .mt_124px {
+        margin-top: 60px;
+    }
+
+    .input_box {
+        padding: 12px 20px !important;
+    }
+
+    .mb_84px {
+        margin-bottom: 60px;
     }
 }
