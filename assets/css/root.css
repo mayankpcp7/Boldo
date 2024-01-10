@@ -62,7 +62,7 @@
   color: var(--clr-darkblue);
 }
 
-.clr_lighgren {
+.clr_lightgreen {
   color: var(--clr-lightgreen);
 }
 
@@ -92,4 +92,7 @@
 }
 .leading_175{
   line-height: 175%;
+}
+.leading_58{
+  line-height: 58.33%;
 }
