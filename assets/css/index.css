@@ -24,10 +24,8 @@
 .leading_160 {
   line-height: 160%;
 }
-<<<<<<< HEAD
 .leading_175 {
-  line-height: 175% !important;
-=======
+  line-height: 175% !important;}
 
 .leading_140 {
     line-height: 140%;
@@ -43,18 +41,15 @@
 
 .max_w_300px {
     max-width: 300px;
->>>>>>> 32e8e7dc68b0510f2aecb169c61082b23f88a6e9
 }
 
 .mt_40px {
   margin-top: 40px;
 }
 
-<<<<<<< HEAD
 .max_w_300px {
   max-width: 300px !important;
 }
-=======
 .leading_160 {
     line-height: 160%;
 }
@@ -125,4 +120,3 @@
         margin-top: 24px !important;
     }
 }
->>>>>>> 32e8e7dc68b0510f2aecb169c61082b23f88a6e9
