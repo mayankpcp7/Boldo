@@ -36,6 +36,10 @@
   padding-left: 12px;
   padding-right: 12px;
 }
+.py_6{
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
 .navbar {
   background-color: var(--clr-darkblue);
   position: fixed;
@@ -46,17 +50,33 @@
   transition: all linear 300ms;
   z-index: 1 !important;
 }
+.hover_bg_green:hover {
+  background-color: var(--clr-lightgreen) !important;
+}
+.hover_bg_green:hover {
+  border-color: var(--clr-lightgreen);
+}
+.hover_line:hover {
+  color: var(--clr-lightgreen);
+}
+.hover_line:hover::before {
+  width: 100%;
+}
 .hover_line {
   position: relative;
 }
 .hover_line::before {
-  width: 100%;
+  content: "";
+  width: 0%;
   height: 2px;
-  background-color: white;
+  background-color: var(--clr-lightgreen);
   display: flex;
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
+  bottom: -4%;
+  transition: 200ms;
+  border-radius: 2px;
 }
 .closbtn {
   top: 20px;
@@ -159,7 +179,15 @@
     gap: 10px;
   }
 }
+@media (max-width: 992px) {
+  .mt_n30 {
+    margin-top: -40px;
+  }
+}
 @media (max-width: 768px) {
+  .mt_n30 {
+    margin-top: -70px !important;
+  }
   .griditem4 {
     grid-row: 3/4;
     grid-column: 1/2;
