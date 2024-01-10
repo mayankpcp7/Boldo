@@ -77,3 +77,19 @@
 .ff_manrope {
   font-family: "Manrope";
 }
+.leading_77 {
+  line-height: 77%;
+}
+.leading_150 {
+  line-height: 150%;
+}
+.px_40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.leading_131 {
+  line-height: 131.25%;
+}
+.leading_175{
+  line-height: 175%;
+}
