@@ -589,15 +589,18 @@ div ul li a:hover {
   bottom: 20px;
   right: 20px;
   z-index: 3;
-  background-color: var(--clr-darkblue);
+  background-color:var(--clr-darkblue);
   border-radius: 50%;
   height: 45px;
   width: 45px;
   cursor: pointer;
   transition: all linear 250ms;
-  border: 2px solid var(--clr-lightgreen);
+  border: 2px solid #03abb5;
 }
 
+.back-to-top:hover {
+  background-color: #03abb5;
+}
 .z_4 {
   z-index: 4 !important;
 }
