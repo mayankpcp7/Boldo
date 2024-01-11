@@ -139,16 +139,16 @@
   max-width: 1100px;
 }
 
-.max_w_300 {
-  max-width: 300px;
-}
-
 .max_w_400 {
   max-width: 400px;
 }
 
 .max_w_302 {
   max-width: 302px;
+}
+
+.gap_40px {
+  gap: 40px;
 }
 
 .grid_container {
@@ -217,18 +217,11 @@
   .pt_124 {
     padding-top: 84px;
   }
-  .max_w_400 {
-    width: 100% !important;
-    min-width: 400px;
-  }
 
   .max_w_302 {
     max-width: 100% !important;
   }
 
-  .max_w_300 {
-    max-width: 100% !important;
-  }
 
   .grid_container {
     display: grid;
@@ -254,9 +247,6 @@
     margin-top: 100px;
   }
 
-  .max_w_300px {
-    max-width: 600px;
-  }
 
   .mt_40px {
     margin-top: 24px;
@@ -317,6 +307,10 @@
     grid-column: 2/3;
   }
 
+  .max_w_300px {
+    max-width: 400px !important;
+  }
+
   .mt_72px {
     margin-top: 48px;
   }
@@ -372,14 +366,6 @@
   width: 25px;
 }
 
-.gap_12px {
-  gap: 12px;
-}
-
-.max_w_800px {
-  max-width: 800px !important;
-}
-
 .max_w_150px {
   max-width: 150px !important;
 }
@@ -406,10 +392,6 @@
 
 .leading_175 {
   line-height: 175%;
-}
-
-.max_w_300px {
-  max-width: 300px;
 }
 
 .mt_40px {
@@ -615,12 +597,19 @@ div ul li a:hover {
   transition: all linear 250ms;
   border: 2px solid var(--clr-lightgreen);
 }
+
 .z_4 {
   z-index: 4 !important;
 }
+
 .back-to-top:hover {
   background-color: var(--clr-lightgreen);
 }
+
+.mt_-100px {
+  margin-top: -100px;
+}
+
 @media (min-width: 1401px) {
   .min_vh_100 {
     min-height: 100vh;
@@ -632,15 +621,7 @@ div ul li a:hover {
     max-width: 400px;
   }
 
-  .max_w_400 {
-    width: 100% !important;
-  }
-
   .max_w_302 {
-    max-width: 100% !important;
-  }
-
-  .max_w_300 {
     max-width: 100% !important;
   }
 
@@ -673,10 +654,6 @@ div ul li a:hover {
 
   .mt_124px {
     margin-top: 100px;
-  }
-
-  .max_w_300px {
-    max-width: 600px;
   }
 
   .mt_40px {
@@ -724,6 +701,13 @@ div ul li a:hover {
   .py_100px {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+}
+
+@media (min-width:576px) {
+  .max_w_300px {
+    max-width: 300px !important;
+    width: 100% !important;
   }
 }
 
@@ -795,6 +779,18 @@ div ul li a:hover {
 }
 
 @media (min-width: 992px) {
+  .gap_12px {
+    gap: 12px;
+  }
+
+  .mt_72px {
+    margin-top: 72px !important;
+  }
+
+  .max_w_800px {
+    max-width: 800px !important;
+  }
+
   .py_120 {
     padding-top: 120px !important;
     padding-bottom: 120px !important;
@@ -807,6 +803,20 @@ div ul li a:hover {
   .my_96px {
     margin-top: 96px !important;
     margin-bottom: 96px !important;
+  }
+}
+
+@media (max-width:992px) {
+  .mt_72px {
+    margin-top: 48px !important;
+  }
+
+  .max_w_800px {
+    max-width: 950px !important;
+  }
+
+  .max_w_150px {
+    max-width: 120px !important;
   }
 }
 
