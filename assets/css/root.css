@@ -147,7 +147,7 @@
     --fs-4xl: 66px;
   }
   :root {
-    --fs-16: 5vw;
+    --fs-16: 4vw;
   }
 }
 @media (max-width: 576px) {
