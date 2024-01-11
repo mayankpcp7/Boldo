@@ -31,23 +31,3 @@ setTimeout(() => {
   document.body.style.overflow = "unset";
   document.body.classList.remove("overflow-hidden");
 }, 3000);
-// --------Back to top------
-    let mybutton = document.getElementById("topBtn");
-    window.onscroll = function () {
-      scrollFunction();
-    };
-
-    function scrollFunction() {
-      if (
-        document.body.scrollTop > 300 ||
-        document.documentElement.scrollTop > 300
-      ) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }

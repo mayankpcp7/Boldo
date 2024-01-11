@@ -588,7 +588,7 @@ div ul li a:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 2;
+  z-index: 3;
   background-color: var(--clr-darkblue);
   border-radius: 50%;
   height: 45px;
