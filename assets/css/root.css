@@ -18,6 +18,9 @@
   --clr-lightgreen: #4fe9a4;
   --clr-darkblue: #0a2640;
 }
+:root {
+  --fs-16: 16px;
+}
 
 .fs_xxs {
   font-size: var(--fs-xxs);
@@ -99,6 +102,9 @@
 .leading_58 {
   line-height: 58.33%;
 }
+.fs_16{
+  font-size: var(--fs-16);
+}
 @media (max-width: 1200px) {
   :root {
     /* -----font sizes----- */
@@ -140,6 +146,9 @@
     --fs-3xl: 44px;
     --fs-4xl: 66px;
   }
+  :root {
+    --fs-16: 5vw;
+  }
 }
 @media (max-width: 576px) {
   :root {
@@ -153,5 +162,8 @@
     --fs-2xl: 28px;
     --fs-3xl: 40px;
     --fs-4xl: 56px;
+  }
+  :root {
+    --fs-16: 5vw;
   }
 }
