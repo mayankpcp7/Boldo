@@ -25,12 +25,6 @@ counters.forEach((counter) => {
 
   animate();
 });
-// -------preloader-------
-setTimeout(() => {
-  document.getElementById("preloader").style.display = "none";
-  document.body.style.overflow = "unset";
-  document.body.classList.remove("overflow-hidden");
-}, 3000);
 // -----back to top------
 
 // ========== BACK TO TOP============
