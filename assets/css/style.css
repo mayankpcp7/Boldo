@@ -496,12 +496,14 @@ div ul li a:hover {
   justify-content: center;
   align-items: center;
 }
+
 .headerline {
   display: flex;
   height: 1px;
   background: var(--Dark-Blue, #0a2640);
   width: 100%;
 }
+
 .blog_nav_hover::before {
   background-color: #0a2640;
 }
