@@ -32,18 +32,22 @@ setTimeout(() => {
   document.body.classList.remove("overflow-hidden");
 }, 3000);
 // --------Back to top------
-const backToTopButton = document.getElementById("back-to-top");
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 200) {
-    backToTopButton.style.display = "block";
-  } else {
-    backToTopButton.style.display = "none";
-  }
-});
+    let mybutton = document.getElementById("topBtn");
+    window.onscroll = function () {
+      scrollFunction();
+    };
 
-backToTopButton.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-});
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 300 ||
+        document.documentElement.scrollTop > 300
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
