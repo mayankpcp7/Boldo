@@ -33,23 +33,19 @@ setTimeout(() => {
 }, 3000);
 // -----back to top------
 
-// ========== BACK TO TOP
-document.addEventListener("DOMContentLoaded", function () {
-  var backToTopBtn = document.getElementById("backToTopBtn");
+// ========== BACK TO TOP============
+const backToTopButton = document.getElementById("back-to-top");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 200) {
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+});
 
-  window.onscroll = function () {
-    if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-    ) {
-      backToTopBtn.style.display = "block";
-    } else {
-      backToTopBtn.style.display = "none";
-    }
-  };
-
-  backToTopBtn.onclick = function () {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  };
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 });
