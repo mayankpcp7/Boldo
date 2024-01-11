@@ -361,14 +361,6 @@
   width: 25px;
 }
 
-.gap_12px {
-  gap: 12px;
-}
-
-.max_w_800px {
-  max-width: 800px !important;
-}
-
 .max_w_150px {
   max-width: 150px !important;
 }
@@ -778,8 +770,16 @@ div ul li a:hover {
 }
 
 @media (min-width: 992px) {
+  .gap_12px {
+    gap: 12px;
+  }
+
   .mt_72px {
     margin-top: 72px !important;
+  }
+
+  .max_w_800px {
+    max-width: 800px !important;
   }
 
   .py_120 {
@@ -800,6 +800,10 @@ div ul li a:hover {
 @media (max-width:992px) {
   .mt_72px {
     margin-top: 48px !important;
+  }
+
+  .max_w_800px {
+    max-width: 950px !important;
   }
 
   .max_w_150px {
