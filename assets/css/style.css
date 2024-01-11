@@ -583,13 +583,13 @@ div ul li a:hover {
 .back-to-top:hover {
   background-color: var(--clr-lightgreen);
 }
-@media (min-width: 1400px) {
+@media (min-width: 1399.98px) {
   .min_vh_100 {
     min-height: 100vh;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199.98px) {
   .mw_550 {
     max-width: 400px;
   }
@@ -614,7 +614,7 @@ div ul li a:hover {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
   .card_1 {
     min-height: 375px;
   }
@@ -658,7 +658,7 @@ div ul li a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .my_96px {
     margin-top: 60px !important;
     margin-bottom: 60px !important;
@@ -687,7 +687,7 @@ div ul li a:hover {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
   .my_96px {
     margin-top: 48px !important;
     margin-bottom: 48px !important;
@@ -737,7 +737,7 @@ div ul li a:hover {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 3px) {
   .grid_container {
     transform: translateY(-5%);
   }
