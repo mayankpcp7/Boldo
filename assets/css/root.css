@@ -12,6 +12,7 @@
   --fs-3xl: 64px;
   --fs-4xl: 96px;
   /* -------font-color--------- */
+  --clr-black: #000;
   --clr-white: #f1f1f1;
   --clr-lightgrey: #777;
   --clr-lightgreen: #4fe9a4;
@@ -53,7 +54,9 @@
 .fs_4xl {
   font-size: var(--fs-4xl);
 }
-
+.clr_black {
+  color: #000;
+}
 .clr_white {
   color: var(--clr-white);
 }
