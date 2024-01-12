@@ -147,7 +147,8 @@
   line-height: 175%;
 }
 
-.pb_166 {padding-top: 24px;
+.pb_166 {
+  padding-top: 24px;
   padding-bottom: 166px;
 }
 
@@ -183,7 +184,10 @@
   grid-column: 1/2;
   grid-row: 1/2;
 }
-
+.py_md_4 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .griditem2 {
   grid-row: 2/3;
   grid-column: 1/2;
@@ -232,7 +236,6 @@
   .mt_xxl_0 {
     margin-top: 0px;
   }
-
 }
 
 @media (max-width: 1200px) {
@@ -290,6 +293,10 @@
 }
 
 @media (max-width: 769px) {
+  .py_md_4 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
   .mt_n30 {
     margin-top: -70px !important;
   }
