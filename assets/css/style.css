@@ -256,6 +256,9 @@
 }
 
 @media (max-width: 993px) {
+  .gap_40px {
+    gap: 30px !important;
+  }
   .mw_842 {
     max-width: 756px;
   }
@@ -283,8 +286,8 @@
   }
 
   .py_100px {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
   }
 
   .mt_n30 {
@@ -294,9 +297,9 @@
 
 @media (max-width: 769px) {
   .py_md_4 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   .mt_n30 {
     margin-top: -70px !important;
   }
@@ -327,6 +330,9 @@
     padding-top: 60px !important;
     padding-bottom: 60px !important;
   }
+  .max_w_300px {
+    max-width: 400px !important;
+  }
 }
 
 @media (max-width: 577px) {
@@ -338,10 +344,6 @@
   .griditem5 {
     grid-row: 3/4;
     grid-column: 2/3;
-  }
-
-  .max_w_300px {
-    max-width: 400px !important;
   }
 
   .mt_72px {
@@ -762,7 +764,10 @@ div ul li a:hover {
     margin-top: 48px !important;
     margin-bottom: 48px !important;
   }
-
+  .my_30 {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
   .mw_550 {
     max-width: 300px;
   }
