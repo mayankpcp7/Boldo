@@ -102,7 +102,7 @@
 .leading_58 {
   line-height: 58.33%;
 }
-.fs_16{
+.fs_16 {
   font-size: var(--fs-16);
 }
 @media (max-width: 1200px) {
@@ -147,7 +147,7 @@
     --fs-4xl: 66px;
   }
   :root {
-    --fs-16: 4vw;
+    --fs-16: 20px;
   }
 }
 @media (max-width: 576px) {
@@ -160,10 +160,16 @@
     --fs-lg: 19px;
     --fs-xl: 30.25px;
     --fs-2xl: 28px;
-    --fs-3xl: 40px;
+    --fs-3xl: 38px;
     --fs-4xl: 56px;
   }
   :root {
     --fs-16: 5vw;
+  }
+}
+@media (max-width: 400px) {
+  :root {
+    --fs-2xl: 24px;
+    
   }
 }

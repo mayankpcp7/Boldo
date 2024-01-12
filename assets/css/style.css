@@ -27,7 +27,7 @@
 .cursor_pointer {
   cursor: pointer;
 }
-.z_4{
+.z_4 {
   z-index: 4;
 }
 .z_10 {
@@ -147,7 +147,7 @@
   line-height: 175%;
 }
 
-.pb_166 {
+.pb_166 {padding-top: 24px;
   padding-bottom: 166px;
 }
 
@@ -166,7 +166,10 @@
 .gap_40px {
   gap: 40px;
 }
-
+.py_md_5 {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
 .grid_container {
   display: grid;
   grid-template-columns: auto;
@@ -208,7 +211,9 @@
 .transition_200 {
   transition: 200ms linear;
 }
-
+.mt_24 {
+  margin-top: 24px;
+}
 /* -----------------our story------------ */
 .pt_124 {
   padding-top: 124px;
@@ -227,6 +232,7 @@
   .mt_xxl_0 {
     margin-top: 0px;
   }
+
 }
 
 @media (max-width: 1200px) {
@@ -247,6 +253,9 @@
 }
 
 @media (max-width: 993px) {
+  .mw_842 {
+    max-width: 756px;
+  }
   .pt_124 {
     padding-top: 117px;
   }
@@ -267,7 +276,7 @@
   }
 
   .mt_32px {
-    margin-top: 24px !important;
+    margin-top: 16px !important;
   }
 
   .py_100px {
@@ -284,7 +293,10 @@
   .mt_n30 {
     margin-top: -70px !important;
   }
-
+  .py_md_5 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   .griditem4 {
     grid-row: 3/4;
     grid-column: 1/2;
@@ -300,8 +312,8 @@
   }
 
   .py_100px {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 48px;
   }
 
   .py_120 {
@@ -476,7 +488,7 @@ div ul li a:hover {
 }
 
 .btn_1:hover {
-  box-shadow: 0px 0px 10px 0px #65e4a3;
+  background-color: white;
 }
 
 .bg_darkblue {
@@ -604,8 +616,8 @@ div ul li a:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 2;
-  background-color:var(--clr-darkblue);
+  z-index: 1;
+  background-color: var(--clr-darkblue);
   border-radius: 50%;
   height: 45px;
   width: 45px;
@@ -660,7 +672,7 @@ div ul li a:hover {
   }
 
   .mb_84px {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   }
 
   .mt_124px {
@@ -686,9 +698,22 @@ div ul li a:hover {
 }
 
 @media (max-width: 767px) {
+  .mt_32px {
+    margin-top: 16px !important;
+  }
   .my_96px {
     margin-top: 60px !important;
     margin-bottom: 60px !important;
+  }
+
+  .btn_1 {
+    color: var(--Dark-Blue, #0a2640);
+    border-radius: 56px;
+    border: none !important;
+    background: var(--Green, #65e4a3);
+    padding: 14px 36px;
+    transition: all 300ms linear;
+    width: 150px;
   }
 
   .mt_n30 {
@@ -706,12 +731,15 @@ div ul li a:hover {
   }
 
   .mt_124px {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .py_100px {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 48px;
+  }
+  .mt_40 {
+    margin-top: 40px;
   }
 }
 
@@ -745,7 +773,6 @@ div ul li a:hover {
   .mt_72px {
     margin-top: 48px;
   }
-
   .py_120 {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -768,8 +795,8 @@ div ul li a:hover {
   }
 
   .py_100px {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 0px;
+    padding-bottom: 12px;
   }
 }
 
