@@ -377,21 +377,6 @@
   }
 }
 
-@media (max-width: 401px) {
-  .grid_container {
-    transform: translateY(-5%);
-  }
-
-  .griditem3 {
-    grid-row: 4/5;
-    grid-column: 1/2;
-  }
-
-  .griditem5 {
-    grid-row: 5/6;
-    grid-column: 1/2;
-  }
-}
 
 .mt_52px {
   margin-top: 52px;
